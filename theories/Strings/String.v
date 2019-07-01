@@ -30,6 +30,8 @@ Delimit Scope string_scope with string.
 Bind Scope string_scope with string.
 Local Open Scope string_scope.
 
+Infix "::" := String : string_scope.
+
 Register EmptyString as plugins.syntax.EmptyString.
 Register String as plugins.syntax.String.
 
